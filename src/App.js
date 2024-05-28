@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import Dictaphone from './Components/Dictaphone';
 import './App.css';
+import Heading from './Components/Heading';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Heading text="Voice 2 Text"/>
+      <Dictaphone />
+
     </div>
   );
 }
